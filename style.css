@@ -1,0 +1,21 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #relatorio, #relatorio * {
+        visibility: visible;
+    }
+    #relatorio {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
+.logotipo {
+  
+  height: auto;
+  width: 100%;
+  
+
+}
